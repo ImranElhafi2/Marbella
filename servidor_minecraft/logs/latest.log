@@ -1,0 +1,1199 @@
+[27Oct2025 16:28:45.234] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[27Oct2025 16:28:45.238] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[27Oct2025 16:28:46.053] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[27Oct2025 16:28:46.060] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[27Oct2025 16:28:46.114] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Marbella/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[27Oct2025 16:28:46.391] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Marbella/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[27Oct2025 16:28:46.393] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Marbella/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Oct2025 16:28:46.394] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Marbella/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Oct2025 16:28:46.395] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Marbella/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[27Oct2025 16:28:46.542] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[27Oct2025 16:28:48.584] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[27Oct2025 16:28:48.622] [main/ERROR] [mixin/]: Mixin config fcl.mixins.json does not specify "minVersion" property
+[27Oct2025 16:28:48.761] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.camera.MixinConnector]
+[27Oct2025 16:28:48.763] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[27Oct2025 16:28:48.764] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [mcinterface1201.mixin.MixinConnector]
+[27Oct2025 16:28:48.766] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[27Oct2025 16:28:48.901] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 96 options available, 0 override(s) found
+[27Oct2025 16:28:48.903] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[27Oct2025 16:28:48.921] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[27Oct2025 16:28:48.942] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[27Oct2025 16:28:49.054] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[27Oct2025 16:28:49.835] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/TileTicker (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.TileTicker)
+[27Oct2025 16:28:49.859] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[27Oct2025 16:28:49.860] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[27Oct2025 16:28:49.861] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/CookingPotBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity)
+[27Oct2025 16:28:49.861] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.CookingPotBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/CookingPotBlockEntityMixin
+[27Oct2025 16:28:49.865] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/entity/StoveBlockEntity (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.entity.StoveBlockEntity)
+[27Oct2025 16:28:49.865] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.entity.StoveBlockEntity was not found itemproductionlib.mixins.json:farmersdelight/StoveBlockEntityMixin
+[27Oct2025 16:28:49.867] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[27Oct2025 16:28:49.867] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[27Oct2025 16:28:50.437] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[27Oct2025 16:28:50.646] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[27Oct2025 16:28:50.717] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[27Oct2025 16:28:50.913] [main/WARN] [net.minecraft.SystemReport/]: Failed retrieving info for group hardware
+java.lang.NoClassDefFoundError: com/sun/jna/Platform
+	at oshi.SystemInfo.<clinit>(SystemInfo.java:60) ~[oshi-core-6.2.2.jar%2369!/:6.2.2]
+	at net.minecraft.SystemReport.m_143564_(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.SystemReport.m_143516_(SystemReport.java:82) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.SystemReport.<init>(SystemReport.java:52) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.CrashReport.<init>(CrashReport.java:31) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.CrashReport.m_127529_(CrashReport.java:216) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at net.minecraft.server.Main.main(Main.java:116) ~[server-1.20.1-20230612.114412-srg.jar%23181!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+Caused by: java.lang.ClassNotFoundException: com.sun.jna.Platform
+	at jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:137) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
+	... 22 more
+[27Oct2025 16:28:51.007] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.280 s after launch)
+[27Oct2025 16:28:51.102] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[27Oct2025 16:28:51.115] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[27Oct2025 16:28:51.164] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27Oct2025 16:28:51.165] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[27Oct2025 16:28:51.274] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[27Oct2025 16:28:51.274] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[27Oct2025 16:28:52.096] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[27Oct2025 16:28:52.098] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[27Oct2025 16:28:52.099] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[27Oct2025 16:28:52.185] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[27Oct2025 16:28:52.187] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[27Oct2025 16:28:52.197] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[27Oct2025 16:28:52.198] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[27Oct2025 16:28:52.199] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[27Oct2025 16:28:52.200] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[27Oct2025 16:28:52.201] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[27Oct2025 16:28:52.202] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[27Oct2025 16:28:52.203] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[27Oct2025 16:28:52.206] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[27Oct2025 16:28:52.208] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[27Oct2025 16:28:52.209] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[27Oct2025 16:28:52.212] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[27Oct2025 16:28:52.213] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[27Oct2025 16:28:52.308] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[27Oct2025 16:28:52.309] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[27Oct2025 16:28:52.310] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[27Oct2025 16:28:52.314] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[27Oct2025 16:28:52.315] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[27Oct2025 16:28:52.317] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[27Oct2025 16:28:52.318] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[27Oct2025 16:28:52.319] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[27Oct2025 16:28:52.321] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[27Oct2025 16:28:52.654] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[27Oct2025 16:28:52.726] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[27Oct2025 16:28:52.729] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[27Oct2025 16:28:52.741] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1727 milliseconds
+[27Oct2025 16:28:52.837] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[27Oct2025 16:28:52.931] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[27Oct2025 16:28:52.936] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[27Oct2025 16:28:53.096] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[27Oct2025 16:28:53.101] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[27Oct2025 16:28:53.362] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[27Oct2025 16:28:53.467] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[27Oct2025 16:28:53.497] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[27Oct2025 16:28:53.507] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[27Oct2025 16:28:53.509] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[27Oct2025 16:28:53.555] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[27Oct2025 16:28:53.778] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[27Oct2025 16:28:53.928] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[27Oct2025 16:28:53.947] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[27Oct2025 16:28:53.974] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[27Oct2025 16:28:54.198] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[27Oct2025 16:28:54.418] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[27Oct2025 16:28:54.419] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[27Oct2025 16:28:54.616] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[27Oct2025 16:28:54.617] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[27Oct2025 16:28:54.618] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[27Oct2025 16:28:54.621] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[27Oct2025 16:28:54.624] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[27Oct2025 16:28:54.663] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[27Oct2025 16:28:54.712] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[27Oct2025 16:28:54.769] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[27Oct2025 16:28:54.770] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[27Oct2025 16:28:54.771] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[27Oct2025 16:28:54.805] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[27Oct2025 16:28:54.808] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[27Oct2025 16:28:54.851] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[27Oct2025 16:28:54.863] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[27Oct2025 16:28:54.908] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[27Oct2025 16:28:54.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[27Oct2025 16:28:55.095] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[27Oct2025 16:28:55.197] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[27Oct2025 16:28:55.259] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[27Oct2025 16:28:55.270] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[27Oct2025 16:28:55.364] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[27Oct2025 16:28:55.369] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[27Oct2025 16:28:55.371] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[27Oct2025 16:28:55.386] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[27Oct2025 16:28:55.390] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[27Oct2025 16:28:55.394] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[27Oct2025 16:28:55.414] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[27Oct2025 16:28:55.466] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[27Oct2025 16:28:55.471] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[27Oct2025 16:28:55.559] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[27Oct2025 16:28:55.560] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[27Oct2025 16:28:55.561] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[27Oct2025 16:28:55.562] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[27Oct2025 16:28:55.563] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[27Oct2025 16:28:55.570] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[27Oct2025 16:28:55.571] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[27Oct2025 16:28:55.571] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[27Oct2025 16:28:55.574] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[27Oct2025 16:28:55.580] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[27Oct2025 16:28:55.594] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[27Oct2025 16:28:55.595] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[27Oct2025 16:28:55.610] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[27Oct2025 16:28:55.617] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[27Oct2025 16:28:55.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[27Oct2025 16:28:55.892] [modloading-worker-0/INFO] [lazrslib/]: Built config 'cuffed' Successfully!
+[27Oct2025 16:28:55.957] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/common/config/sync/ConfigSynchronization
+[27Oct2025 16:28:55.959] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting team/creative/creativecore/Side
+[27Oct2025 16:28:55.961] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/util/Easings
+[27Oct2025 16:28:55.965] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/screen/ButtonAlignment
+[27Oct2025 16:28:55.967] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameType
+[27Oct2025 16:28:55.973] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/DotRenderMode
+[27Oct2025 16:28:55.974] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/client/SwayType
+[27Oct2025 16:28:55.993] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Phase
+[27Oct2025 16:28:55.994] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TickEvent$Type
+[27Oct2025 16:28:56.034] [modloading-worker-0/INFO] [cuffed/]: Registered restraints
+[27Oct2025 16:28:56.039] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/Commands$CommandSelection
+[27Oct2025 16:28:56.110] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/client/CuriosClientConfig$Client$ButtonCorner
+[27Oct2025 16:28:56.114] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/CuriosConfig$KeepCurios
+[27Oct2025 16:28:56.122] [modloading-worker-0/INFO] [Lexiconfig/]: Beginning lexicon shelving!
+[27Oct2025 16:28:56.138] [modloading-worker-0/INFO] [Lexiconfig/]: Shelved lexicon com.codinglitch.lexiconfig.LexiconfigConfig@78382fdd!
+[27Oct2025 16:28:56.211] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobSpawnType
+[27Oct2025 16:28:56.229] [modloading-worker-0/INFO] [Devices Mod/]: Creating Creative Tab...
+[27Oct2025 16:28:56.261] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Initializing registration handler and mod config.
+[27Oct2025 16:28:56.281] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/PhysicalSide
+[27Oct2025 16:28:56.285] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.285] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.286] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.286] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.286] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.287] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.287] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[27Oct2025 16:28:56.288] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/api/event/IEventHelper$Ordering
+[27Oct2025 16:28:56.329] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/utils/Env
+[27Oct2025 16:28:56.330] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering common setup handler, and load complete handler.
+[27Oct2025 16:28:56.331] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering server setup handler.
+[27Oct2025 16:28:56.333] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering the reload listener.
+[27Oct2025 16:28:56.333] [modloading-worker-0/INFO] [com.ultreon.devices.forge.DevicesForge/]: Registering mod class to forge events.
+[27Oct2025 16:28:56.356] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting dev/architectury/networking/NetworkManager$Side
+[27Oct2025 16:28:56.371] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[27Oct2025 16:28:56.371] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[27Oct2025 16:28:56.387] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/PlayerInteractEvent$LeftClickBlock$Action
+[27Oct2025 16:28:56.404] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/PackType
+[27Oct2025 16:28:56.409] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/sounds/SoundSource
+[27Oct2025 16:28:56.414] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$RemovalReason
+[27Oct2025 16:28:56.414] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MoverType
+[27Oct2025 16:28:56.417] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Rotation
+[27Oct2025 16:28:56.418] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/Mirror
+[27Oct2025 16:28:56.421] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONItem$ItemComponentType
+[27Oct2025 16:28:56.432] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/arguments/EntityAnchorArgument$Anchor
+[27Oct2025 16:28:56.474] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[27Oct2025 16:28:56.643] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Welcome to MTS VERSION: 22.17.0
+[27Oct2025 16:28:56.688] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$ItemClassification
+[27Oct2025 16:28:56.702] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$PartType
+[27Oct2025 16:28:56.706] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAnimationDefinition$AnimationComponentType
+[27Oct2025 16:28:56.708] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAnimationDefinition$AnimationEasingType
+[27Oct2025 16:28:56.709] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$EngineType
+[27Oct2025 16:28:56.712] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONConfigSettings$FuelDefaults
+[27Oct2025 16:28:56.718] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/components/ABlockBase$BlockMaterial
+[27Oct2025 16:28:56.720] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$LockOnType
+[27Oct2025 16:28:56.720] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$TargetType
+[27Oct2025 16:28:56.722] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$InteractableComponentType
+[27Oct2025 16:28:56.725] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$CrafterComponentType
+[27Oct2025 16:28:56.726] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPart$EffectorComponentType
+[27Oct2025 16:28:56.728] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPartDefinition$JSONGroundDevicePosition
+[27Oct2025 16:28:56.730] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPotionEffect$PotionDefaults
+[27Oct2025 16:28:56.735] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleType
+[27Oct2025 16:28:56.736] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleSpawningOrientation
+[27Oct2025 16:28:56.740] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONParticle$ParticleRenderingOrientation
+[27Oct2025 16:28:56.747] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONCollisionGroup$CollisionType
+[27Oct2025 16:28:56.751] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONAction$ActionType
+[27Oct2025 16:28:56.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/network/RoadPlannerPackets$C2SClick$Action
+[27Oct2025 16:28:56.764] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONRendering$ModelType
+[27Oct2025 16:28:56.808] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[27Oct2025 16:28:56.808] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[27Oct2025 16:28:56.809] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$ResourceType
+[27Oct2025 16:28:56.810] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/packloading/PackResourceLoader$PackStructure
+[27Oct2025 16:28:56.812] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/platform/services/IPlatformHelper$Platform
+[27Oct2025 16:28:56.813] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/capabilities/CapabilityManager
+[27Oct2025 16:28:56.819] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/rendering/RenderableVertices$BoxOffset
+[27Oct2025 16:28:56.834] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONDecor$DecorComponentType
+[27Oct2025 16:28:56.836] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemDisplayContext
+[27Oct2025 16:28:56.885] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPanel$SpecialComponent
+[27Oct2025 16:28:56.886] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/jsondefs/JSONPanel$ActionType
+[27Oct2025 16:28:57.990] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano found with no faces defined at line: 43211 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[27Oct2025 16:28:58.036] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.001 found with no faces defined at line: 69512 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[27Oct2025 16:28:58.036] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.002 found with no faces defined at line: 69513 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[27Oct2025 16:28:58.036] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Plano.003 found with no faces defined at line: 69514 in: /assets/brcc/objmodels/vehicles/cars/gol.obj
+[27Oct2025 16:28:58.100] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object Círculo found with no faces defined at line: 76462 in: /assets/brcc/objmodels/vehicles/cars/opala.obj
+[27Oct2025 16:28:58.713] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object translucent_backup000 found with no faces defined at line: 58134 in: /assets/brcc/objmodels/vehicles/cars/uno.obj
+[27Oct2025 16:28:58.714] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Object translucent_brakel found with no faces defined at line: 58135 in: /assets/brcc/objmodels/vehicles/cars/uno.obj
+[27Oct2025 16:28:58.879] [modloading-worker-0/ERROR] [mts/]: MTSERROR: ConfigSystem failed to save modified config files.  Report to the mod author!
+[27Oct2025 16:28:58.879] [modloading-worker-0/ERROR] [mts/]: MTSERROR: Cannot invoke "java.io.File.toPath()" because "minecrafttransportsimulator.systems.ConfigSystem.clientFile" is null
+[27Oct2025 16:28:59.089] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ChatTypeDecoration$Parameter
+[27Oct2025 16:28:59.100] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageScaling
+[27Oct2025 16:28:59.101] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DamageEffects
+[27Oct2025 16:28:59.103] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/damagesource/DeathMessageType
+[27Oct2025 16:28:59.544] [main/INFO] [cuffed/]: Registering Capabilities for Cuffed
+[27Oct2025 16:28:59.951] [main/INFO] [cuffed/]: Registering sound for Cuffed
+[27Oct2025 16:28:59.972] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/blocks/base/PosterType
+[27Oct2025 16:29:00.098] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/ComputerBlock$Type
+[27Oct2025 16:29:00.098] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/ModDeviceTypes
+[27Oct2025 16:29:00.103] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/MacMaxXBlockPart$Part
+[27Oct2025 16:29:00.116] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/OfficeChairBlock$Type
+[27Oct2025 16:29:00.159] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/AsphaltBlock$Variant
+[27Oct2025 16:29:00.160] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/AsphaltBlock$TextureVariant
+[27Oct2025 16:29:00.165] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadblocksmod/block/SidewalkBlock$Variant
+[27Oct2025 16:29:00.295] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/enchantment/GunEnchantment$Type
+[27Oct2025 16:29:00.372] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[27Oct2025 16:29:00.372] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[27Oct2025 16:29:00.823] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/darkhax/bookshelf/impl/commands/CommandHand$OutputType
+[27Oct2025 16:29:00.856] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/animation/ArmRestraintAnimationFlags
+[27Oct2025 16:29:00.860] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/animation/LegRestraintAnimationFlags
+[27Oct2025 16:29:00.860] [main/INFO] [cuffed/]: Cuffed has found a foreign restraint registry, registering with Restraint API
+[27Oct2025 16:29:00.862] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/restraints/base/RestraintType
+[27Oct2025 16:29:00.873] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/BlockPathTypes
+[27Oct2025 16:29:00.911] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.lazrproductions.cuffed.entity.WeightedAnchorEntity
+[27Oct2025 16:29:00.918] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/Difficulty
+[27Oct2025 16:29:00.934] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/SpawnPlacements$Type
+[27Oct2025 16:29:00.941] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/SpawnPlacementRegisterEvent$Operation
+[27Oct2025 16:29:01.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/Marbella/servidor_minecraft/config/eyemod-common.toml is not correct. Correcting
+[27Oct2025 16:29:01.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key spawnLocations was corrected from [] to its default, []. 
+[27Oct2025 16:29:01.322] [modloading-worker-0/INFO] [cuffed/]: Running commmon setup for Cuffed
+[27Oct2025 16:29:01.332] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[27Oct2025 16:29:01.355] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/common/network/server/sync/SPacketSyncStack$HandlerType
+[27Oct2025 16:29:01.361] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting top/theillusivec4/curios/api/type/capability/ICurio$DropRule
+[27Oct2025 16:29:01.371] [modloading-worker-0/INFO] [Devices Mod/]: Doing some common setup.
+[27Oct2025 16:29:01.377] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/2f18a26b1e0c3f048a3d73a822f8669e
+[27Oct2025 16:29:01.378] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/b45afe52425036fd91fbe736d62d8686
+[27Oct2025 16:29:01.380] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/e2a6a8b6270d3c338a30c4774f5aadc2
+[27Oct2025 16:29:01.386] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/d86b1a6540e83487a1a0a6d75a9e9e85
+[27Oct2025 16:29:01.386] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/68177ab5333a3225896c4373707ce286
+[27Oct2025 16:29:01.387] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/6fcc830bcdc33ed8bfb4a9b5c4fa3f93
+[27Oct2025 16:29:01.388] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/a17f7903c43c3e86997b30403506145b
+[27Oct2025 16:29:01.389] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id devices:main_channel/678b9b9b076c3ab19dbff4b7fd22a419
+[27Oct2025 16:29:01.397] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_application_data'
+[27Oct2025 16:29:01.397] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'print'
+[27Oct2025 16:29:01.398] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_system_data'
+[27Oct2025 16:29:01.399] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'connect'
+[27Oct2025 16:29:01.399] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'ping'
+[27Oct2025 16:29:01.400] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_network_devices'
+[27Oct2025 16:29:01.402] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'send_action'
+[27Oct2025 16:29:01.403] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_file_system'
+[27Oct2025 16:29:01.404] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_files'
+[27Oct2025 16:29:01.405] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_folder_structure'
+[27Oct2025 16:29:01.406] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'get_main_drive'
+[27Oct2025 16:29:01.408] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'install_app'
+[27Oct2025 16:29:01.409] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'update_inbox'
+[27Oct2025 16:29:01.410] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'send_email'
+[27Oct2025 16:29:01.411] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'check_email_account'
+[27Oct2025 16:29:01.412] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'register_email_account'
+[27Oct2025 16:29:01.413] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'delete_email'
+[27Oct2025 16:29:01.413] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'view_email'
+[27Oct2025 16:29:01.414] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_add_auction'
+[27Oct2025 16:29:01.415] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumGuiType
+[27Oct2025 16:29:01.416] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_get_auctions'
+[27Oct2025 16:29:01.417] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'minebay_buy_item'
+[27Oct2025 16:29:01.418] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_deposit'
+[27Oct2025 16:29:01.418] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_withdraw'
+[27Oct2025 16:29:01.419] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_get_balance'
+[27Oct2025 16:29:01.420] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_pay'
+[27Oct2025 16:29:01.421] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_add'
+[27Oct2025 16:29:01.422] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'bank_remove'
+[27Oct2025 16:29:01.425] [modloading-worker-0/INFO] [Devices Mod/]: Registering task 'notification_test'
+[27Oct2025 16:29:01.456] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumCompanionTalent
+[27Oct2025 16:29:01.470] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumMenuType
+[27Oct2025 16:29:01.482] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumCompanionStage
+[27Oct2025 16:29:01.486] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumPlayerData
+[27Oct2025 16:29:01.617] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/TagsUpdatedEvent$UpdateCause
+[27Oct2025 16:29:01.619] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[27Oct2025 16:29:01.620] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/ProjectileImpactEvent$ImpactResult
+[27Oct2025 16:29:01.621] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/living/LivingChangeTargetEvent$LivingTargetType
+[27Oct2025 16:29:01.624] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/entity/player/AdvancementEvent$AdvancementProgressEvent$ProgressType
+[27Oct2025 16:29:01.626] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerActionPacket$Action
+[27Oct2025 16:29:01.630] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Note
+[27Oct2025 16:29:01.630] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/NoteBlockEvent$Octave
+[27Oct2025 16:29:01.632] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/event/level/PistonEvent$PistonMoveType
+[27Oct2025 16:29:01.641] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickAction
+[27Oct2025 16:29:01.687] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/network/MessageDirection
+[27Oct2025 16:29:01.712] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/sync/SyncedDataKey$SyncMode
+[27Oct2025 16:29:01.738] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[27Oct2025 16:29:01.739] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[27Oct2025 16:29:01.739] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[27Oct2025 16:29:01.739] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[27Oct2025 16:29:01.743] [main/FATAL] [ModernFix/]: Redirector 5.x is detected, it is known to cause extremely hard-to-debug issues in other mods
+[27Oct2025 16:29:01.784] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting de/sarocesch/sarosroadsignsmod/packs/SignDefinition$Shape
+[27Oct2025 16:29:01.892] [modloading-worker-0/INFO] [Devices Mod/]: Doing some server setup.
+[27Oct2025 16:29:01.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[27Oct2025 16:29:01.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/forge/camera
+[27Oct2025 16:29:02.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [camera] Found status: AHEAD Current: 1.20.1-1.0.20 Target: null
+[27Oct2025 16:29:02.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[27Oct2025 16:29:02.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.13 Target: 20.2.13
+[27Oct2025 16:29:02.140] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[27Oct2025 16:29:02.197] [modloading-worker-0/INFO] [Devices Mod/]: Doing some load complete handling.
+[27Oct2025 16:29:02.199] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$EventType
+[27Oct2025 16:29:02.200] [modloading-worker-0/INFO] [Lexiconfig/]: Cataloging lexicon com.codinglitch.lexiconfig.LexiconfigConfig@78382fdd!
+[27Oct2025 16:29:02.203] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$Location
+[27Oct2025 16:29:02.202] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 19 compatible attributes.
+[27Oct2025 16:29:02.207] [modloading-worker-0/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/codinglitch/lexiconfig/LexiconfigApi$Extension
+[27Oct2025 16:29:02.210] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:blocking' does not belong to a known attribute. This entry will be ignored.
+[27Oct2025 16:29:02.210] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:evasion' does not belong to a known attribute. This entry will be ignored.
+[27Oct2025 16:29:02.210] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:stealth' does not belong to a known attribute. This entry will be ignored.
+[27Oct2025 16:29:02.210] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:regeneration' does not belong to a known attribute. This entry will be ignored.
+[27Oct2025 16:29:02.210] [modloading-worker-0/ERROR] [AttributeFix/]: Attribute ID 'skilltree:exp_per_minute' does not belong to a known attribute. This entry will be ignored.
+[27Oct2025 16:29:02.210] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 24 values from config.
+[27Oct2025 16:29:02.217] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 24 entries.
+[27Oct2025 16:29:02.218] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 24 attributes.
+[27Oct2025 16:29:02.222] [modloading-worker-0/INFO] [Lexiconfig/]: Lexiconfig cataloging completed!
+[27Oct2025 16:29:02.316] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[27Oct2025 16:29:02.420] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/modernfix/util/BakeReason
+[27Oct2025 16:29:02.758] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: Mods loaded with 2 warnings
+[27Oct2025 16:29:02.761] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.redirector_installed
+[27Oct2025 16:29:02.761] [main/WARN] [net.minecraftforge.server.loading.ServerModLoader/LOADING]: modernfix.perf_mod_warning
+[27Oct2025 16:29:02.780] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[27Oct2025 16:29:03.016] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$ValueResult
+[27Oct2025 16:29:03.017] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/nbt/StreamTagVisitor$EntryResult
+[27Oct2025 16:29:03.036] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/datafix/DataFixTypes
+[27Oct2025 16:29:03.045] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/GameRules$Category
+[27Oct2025 16:29:03.060] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Marbella/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/assets/.mcassetsroot' uses unexpected schema
+[27Oct2025 16:29:03.061] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Marbella/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23181!/data/.mcassetsroot' uses unexpected schema
+[27Oct2025 16:29:03.098] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/Pack$Position
+[27Oct2025 16:29:03.099] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/packs/repository/PackCompatibility
+[27Oct2025 16:29:03.119] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/money_datapack, loading it automatically
+[27Oct2025 16:29:03.133] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/RegistryLayer
+[27Oct2025 16:29:03.491] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/JigsawBlockEntity$JointType
+[27Oct2025 16:29:03.536] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd$Type
+[27Oct2025 16:29:03.935] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty
+[27Oct2025 16:29:03.963] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/LootContext$EntityTarget
+[27Oct2025 16:29:03.970] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/commands/CommandBuildContext$MissingTagAccessPolicy
+[27Oct2025 16:29:04.069] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/OctahedralGroup
+[27Oct2025 16:29:04.072] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mojang/math/SymmetricGroup3
+[27Oct2025 16:29:04.191] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/ClickEvent$Action
+[27Oct2025 16:29:04.403] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[27Oct2025 16:29:04.598] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNbtFunction$MergeStrategy
+[27Oct2025 16:29:04.610] [Worker-Main-2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/modifier/type/StatType
+[27Oct2025 16:29:04.629] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[27Oct2025 16:29:04.630] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[27Oct2025 16:29:04.631] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[27Oct2025 16:29:04.631] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[27Oct2025 16:29:04.632] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[27Oct2025 16:29:04.633] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[27Oct2025 16:29:04.636] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[27Oct2025 16:29:04.636] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[27Oct2025 16:29:04.637] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[27Oct2025 16:29:04.637] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[27Oct2025 16:29:04.638] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[27Oct2025 16:29:04.638] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[27Oct2025 16:29:04.641] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[27Oct2025 16:29:04.643] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[27Oct2025 16:29:04.646] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[27Oct2025 16:29:04.650] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[27Oct2025 16:29:04.651] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[27Oct2025 16:29:04.655] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[27Oct2025 16:29:04.657] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[27Oct2025 16:29:04.658] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[27Oct2025 16:29:04.660] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[27Oct2025 16:29:04.660] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[27Oct2025 16:29:04.661] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[27Oct2025 16:29:04.663] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[27Oct2025 16:29:04.663] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[27Oct2025 16:29:04.664] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[27Oct2025 16:29:04.665] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[27Oct2025 16:29:04.665] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[27Oct2025 16:29:04.665] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[27Oct2025 16:29:04.666] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[27Oct2025 16:29:04.666] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[27Oct2025 16:29:04.667] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[27Oct2025 16:29:04.667] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[27Oct2025 16:29:04.668] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[27Oct2025 16:29:04.671] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[27Oct2025 16:29:04.677] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[27Oct2025 16:29:04.677] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[27Oct2025 16:29:04.703] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ItemStack$TooltipPart
+[27Oct2025 16:29:04.717] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[27Oct2025 16:29:04.719] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Fox$Type
+[27Oct2025 16:29:04.720] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/MushroomCow$MushroomType
+[27Oct2025 16:29:04.721] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Rabbit$Variant
+[27Oct2025 16:29:04.722] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Variant
+[27Oct2025 16:29:04.723] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Llama$Variant
+[27Oct2025 16:29:04.724] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/Parrot$Variant
+[27Oct2025 16:29:04.725] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Pattern
+[27Oct2025 16:29:04.725] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/TropicalFish$Base
+[27Oct2025 16:29:04.741] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/storage/loot/functions/CopyNameFunction$NameSource
+[27Oct2025 16:29:04.748] [Worker-Main-1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/saveddata/maps/MapDecoration$Type
+[27Oct2025 16:29:04.908] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:04.916] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.917] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.921] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.925] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.938] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:04.939] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.941] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/FireworkRocketItem$Shape
+[27Oct2025 16:29:04.943] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.944] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:04.945] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.947] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[27Oct2025 16:29:04.948] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[27Oct2025 16:29:04.950] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[27Oct2025 16:29:04.953] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.954] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.957] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.960] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.961] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:04.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[27Oct2025 16:29:04.972] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/advancements/FrameType
+[27Oct2025 16:29:05.048] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1422 advancements
+[27Oct2025 16:29:05.050] [main/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[27Oct2025 16:29:05.053] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[27Oct2025 16:29:05.055] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Oct2025 16:29:05.089] [main/WARN] [ModernFix/]: Initial datapack load took 2.008 s
+[27Oct2025 16:29:05.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[27Oct2025 16:29:05.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[27Oct2025 16:29:05.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[27Oct2025 16:29:05.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[27Oct2025 16:29:05.324] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[27Oct2025 16:29:05.348] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[27Oct2025 16:29:05.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[27Oct2025 16:29:05.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[27Oct2025 16:29:05.432] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[27Oct2025 16:29:05.433] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[27Oct2025 16:29:05.448] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/cuffed-server.toml is not correct. Correcting
+[27Oct2025 16:29:05.448] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Max Chain Length was corrected from 5.0 to its default, 5.0. 
+[27Oct2025 16:29:05.449] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cuffed Config.Anchoring Settings.Suffocation Length was corrected from 12.0 to its default, 12.0. 
+[27Oct2025 16:29:05.462] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/BiomeModifier$Phase
+[27Oct2025 16:29:05.476] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/common/world/StructureModifier$Phase
+[27Oct2025 16:29:05.479] [Server thread/INFO] [Framework/]: Loading server configs...
+[27Oct2025 16:29:05.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[27Oct2025 16:29:05.666] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ModCheck$Confidence
+[27Oct2025 16:29:05.687] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/VillageSiege$State
+[27Oct2025 16:29:05.715] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/ticks/TickPriority
+[27Oct2025 16:29:05.726] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/storage/IOWorker$Priority
+[27Oct2025 16:29:05.736] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/Visibility
+[27Oct2025 16:29:05.737] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/entity/PersistentEntitySectionManager$ChunkLoadStatus
+[27Oct2025 16:29:05.740] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/level/FullChunkStatus
+[27Oct2025 16:29:05.780] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/WorldgenRandom$Algorithm
+[27Oct2025 16:29:05.957] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/LightLayer
+[27Oct2025 16:29:06.009] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/lighting/LayerLightEventListener$DummyLightLayerEventListener
+[27Oct2025 16:29:06.011] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarColor
+[27Oct2025 16:29:06.012] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/BossEvent$BossBarOverlay
+[27Oct2025 16:29:06.013] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundBossEventPacket$OperationType
+[27Oct2025 16:29:06.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[27Oct2025 16:29:06.211] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/EmptyBlockGetter
+[27Oct2025 16:29:06.212] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction8
+[27Oct2025 16:29:06.257] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ca/spottedleaf/starlight/common/light/StarLightEngine$AxisDirection
+[27Oct2025 16:29:06.434] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[27Oct2025 16:29:06.686] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/village/poi/PoiManager$Occupancy
+[27Oct2025 16:29:06.862] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting melonslise/locks/common/util/Transform
+[27Oct2025 16:29:07.210] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Oct2025 16:29:07.210] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Oct2025 16:29:07.211] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Oct2025 16:29:07.251] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SupportType
+[27Oct2025 16:29:07.260] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/AxisCycle
+[27Oct2025 16:29:07.527] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[27Oct2025 16:29:08.055] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/control/MoveControl$Operation
+[27Oct2025 16:29:08.065] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityDialog
+[27Oct2025 16:29:08.066] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityQuest
+[27Oct2025 16:29:08.067] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumDayTime
+[27Oct2025 16:29:08.068] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityFactionType
+[27Oct2025 16:29:08.069] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityFaction
+[27Oct2025 16:29:08.070] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAvailabilityScoreboard
+[27Oct2025 16:29:08.105] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumParts
+[27Oct2025 16:29:08.122] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[27Oct2025 16:29:08.336] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/ultreon/devices/block/entity/PrinterBlockEntity$State
+[27Oct2025 16:29:08.526] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[27Oct2025 16:29:08.907] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2881 ms
+[27Oct2025 16:29:08.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.461s)! For help, type "help"
+[27Oct2025 16:29:08.972] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[27Oct2025 16:29:08.972] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[27Oct2025 16:29:08.973] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[27Oct2025 16:29:08.973] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[27Oct2025 16:29:08.973] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[27Oct2025 16:29:08.973] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[27Oct2025 16:29:08.973] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[27Oct2025 16:29:08.974] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[27Oct2025 16:29:08.974] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[27Oct2025 16:29:08.974] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[27Oct2025 16:29:08.974] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[27Oct2025 16:29:08.975] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[27Oct2025 16:29:08.975] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[27Oct2025 16:29:08.975] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[27Oct2025 16:29:08.976] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[27Oct2025 16:29:08.976] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[27Oct2025 16:29:08.976] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[27Oct2025 16:29:08.977] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[27Oct2025 16:29:08.977] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[27Oct2025 16:29:08.977] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[27Oct2025 16:29:08.978] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[27Oct2025 16:29:08.978] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[27Oct2025 16:29:08.978] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[27Oct2025 16:29:08.979] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[27Oct2025 16:29:08.979] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[27Oct2025 16:29:08.980] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[27Oct2025 16:29:08.980] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[27Oct2025 16:29:08.981] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[27Oct2025 16:29:08.981] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[27Oct2025 16:29:08.981] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[27Oct2025 16:29:08.982] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[27Oct2025 16:29:08.982] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[27Oct2025 16:29:08.986] [Server thread/INFO] [com.podloot.eyemod.Eye/]: EyeMod loaded (Server)
+[27Oct2025 16:29:08.987] [Server thread/INFO] [cuffed/]: Running server setup for Cuffed
+[27Oct2025 16:29:09.011] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/ChatVisiblity
+[27Oct2025 16:29:09.014] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/RecipeBookType
+[27Oct2025 16:29:09.032] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/PacketFlow
+[27Oct2025 16:29:09.042] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[27Oct2025 16:29:09.042] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[27Oct2025 16:29:09.043] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[27Oct2025 16:29:09.043] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/LogicalEnvironment
+[27Oct2025 16:29:09.047] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/mrcrayfish/framework/api/Environment
+[27Oct2025 16:29:09.083] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.358 seconds to load
+[27Oct2025 16:29:09.247] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/ai/AIType
+[27Oct2025 16:29:09.287] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/AbortableIterationConsumer$Continuation
+[27Oct2025 16:29:09.291] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Entity$MovementEmission
+[27Oct2025 16:29:09.292] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$CollisionRule
+[27Oct2025 16:29:09.308] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/profiling/metrics/MetricCategory
+[27Oct2025 16:29:09.339] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/components/ABlockBase$Axis
+[27Oct2025 16:29:09.351] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/sound/RadioManager$RadioSources
+[27Oct2025 16:29:09.352] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/entities/components/AEntityA_Base$EntityAutoUpdateTime
+[27Oct2025 16:29:09.355] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/blocks/tileentities/components/RoadLane$LaneSelectionRequest
+[27Oct2025 16:29:09.449] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumScriptType
+[27Oct2025 16:29:10.091] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Block
+[27Oct2025 16:29:10.092] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/ClipContext$Fluid
+[27Oct2025 16:29:10.094] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/phys/HitResult$Type
+[27Oct2025 16:29:10.111] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/LevelChunk$EntityCreationType
+[27Oct2025 16:29:17.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[27Oct2025 16:29:17.930] [Worker-ResourceReload-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[27Oct2025 16:29:18.070] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[27Oct2025 16:29:18.074] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[27Oct2025 16:29:18.074] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[27Oct2025 16:29:18.075] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[27Oct2025 16:29:18.076] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[27Oct2025 16:29:18.076] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[27Oct2025 16:29:18.077] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[27Oct2025 16:29:18.081] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[27Oct2025 16:29:18.081] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[27Oct2025 16:29:18.082] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[27Oct2025 16:29:18.083] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[27Oct2025 16:29:18.084] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[27Oct2025 16:29:18.084] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[27Oct2025 16:29:18.088] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[27Oct2025 16:29:18.088] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[27Oct2025 16:29:18.089] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[27Oct2025 16:29:18.090] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[27Oct2025 16:29:18.090] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[27Oct2025 16:29:18.094] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[27Oct2025 16:29:18.094] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[27Oct2025 16:29:18.095] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[27Oct2025 16:29:18.096] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[27Oct2025 16:29:18.096] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[27Oct2025 16:29:18.100] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[27Oct2025 16:29:18.101] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[27Oct2025 16:29:18.101] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[27Oct2025 16:29:18.102] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[27Oct2025 16:29:18.103] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[27Oct2025 16:29:18.104] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[27Oct2025 16:29:18.104] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[27Oct2025 16:29:18.105] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[27Oct2025 16:29:18.105] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[27Oct2025 16:29:18.106] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[27Oct2025 16:29:18.107] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[27Oct2025 16:29:18.108] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[27Oct2025 16:29:18.108] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[27Oct2025 16:29:18.109] [Worker-ResourceReload-2/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[27Oct2025 16:29:18.197] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:18.201] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.202] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.204] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.206] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.213] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:18.214] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.216] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.217] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:29:18.218] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.220] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[27Oct2025 16:29:18.221] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[27Oct2025 16:29:18.223] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[27Oct2025 16:29:18.226] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.228] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.230] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.233] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.234] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:29:18.235] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[27Oct2025 16:29:18.270] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1422 advancements
+[27Oct2025 16:29:18.271] [Server thread/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[27Oct2025 16:29:18.272] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[27Oct2025 16:29:18.273] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Oct2025 16:29:18.309] [Server thread/INFO] [Lexiconfig/]: Starting lexicon revision!
+[27Oct2025 16:29:18.311] [Server thread/INFO] [Lexiconfig/]: Finished lexicon revision!
+[27Oct2025 16:29:28.985] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/Team$Visibility
+[27Oct2025 16:29:28.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Created team [Police_Chef]
+[27Oct2025 16:29:35.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Created team [Police_Cadet]
+[27Oct2025 16:29:39.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Created team [Tech]
+[27Oct2025 16:29:49.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Created team [Mechanicien]
+[27Oct2025 16:29:54.774] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/ConnectionProtocol
+[27Oct2025 16:29:54.796] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundCustomChatCompletionsPacket$Action
+[27Oct2025 16:29:54.812] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundRecipePacket$State
+[27Oct2025 16:29:54.821] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/ServerScoreboard$Method
+[27Oct2025 16:29:54.831] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action
+[27Oct2025 16:29:54.832] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/HumanoidArm
+[27Oct2025 16:29:54.834] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/inventory/ClickType
+[27Oct2025 16:29:54.836] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+[27Oct2025 16:29:54.842] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundPlayerCommandPacket$Action
+[27Oct2025 16:29:54.846] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundResourcePackPacket$Action
+[27Oct2025 16:29:54.847] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket$Action
+[27Oct2025 16:29:54.849] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/CommandBlockEntity$Mode
+[27Oct2025 16:29:54.853] [Netty Epoll Server IO #1/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/StructureBlockEntity$UpdateType
+[27Oct2025 16:29:55.928] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/ConnectionType
+[27Oct2025 16:29:55.983] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/network/ServerLoginPacketListenerImpl$State
+[27Oct2025 16:29:57.631] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/lazrproductions/cuffed/entity/base/IPrivacyOperand$PrivacyRestriction
+[27Oct2025 16:29:57.636] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Imranack[/127.110.172.72:60215] logged in with entity id 720 at (177.87309937253386, 65.0, 193.6768735660761)
+[27Oct2025 16:29:57.640] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/filters/VanillaPacketSplitter$RemoteCompatibility
+[27Oct2025 16:29:57.647] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/SpellcasterIllager$IllagerSpell
+[27Oct2025 16:29:57.651] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/monster/Phantom$AttackPhase
+[27Oct2025 16:29:57.651] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/monster/phantom/gunner/PhantomGunner$AttackPhase
+[27Oct2025 16:29:57.653] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/entity/monster/phantom/terror/TerrorPhantom$AttackPhase
+[27Oct2025 16:29:57.660] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Imranack
+[27Oct2025 16:29:57.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Imranack joined the game
+[27Oct2025 16:29:57.710] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/RelativeMovement
+[27Oct2025 16:29:57.816] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Imranack}
+[27Oct2025 16:29:57.819] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/razorplay/invview_forge/util/InventoryLockManager$InventoryType
+[27Oct2025 16:29:57.891] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/server/advancements/AdvancementVisibilityEvaluator$VisibilityRule
+[27Oct2025 16:29:57.909] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ttv/migami/jeg/item/attachment/IAttachment$Type
+[27Oct2025 16:29:57.948] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkEvent$RegistrationChangeType
+[27Oct2025 16:29:58.029] [Server thread/ERROR] [mts/]: MTSERROR: Failed to load entity on builder from saved NBT.  Did a pack change?
+[27Oct2025 16:29:58.030] [Server thread/ERROR] [mts/]: MTSERROR: Cannot invoke "minecrafttransportsimulator.items.components.IItemEntityProvider$IItemEntityFactory.restoreEntityFromData(minecrafttransportsimulator.mcinterface.AWrapperWorld, minecrafttransportsimulator.mcinterface.IWrapperNBT)" because the return value of "java.util.Map.get(Object)" is null
+[27Oct2025 16:30:04.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 16:30:05.336] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/RenderShape
+[27Oct2025 16:30:06.786] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/UseAnim
+[27Oct2025 16:31:55.889] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundSetPlayerTeamPacket$Action
+[27Oct2025 16:31:55.890] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Added Imranack to team [Police_Chef]]
+[27Oct2025 16:34:13.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[27Oct2025 16:34:13.172] [Worker-ResourceReload-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[27Oct2025 16:34:13.264] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[27Oct2025 16:34:13.265] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[27Oct2025 16:34:13.266] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[27Oct2025 16:34:13.266] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[27Oct2025 16:34:13.267] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[27Oct2025 16:34:13.268] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[27Oct2025 16:34:13.268] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[27Oct2025 16:34:13.269] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[27Oct2025 16:34:13.270] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[27Oct2025 16:34:13.271] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[27Oct2025 16:34:13.272] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[27Oct2025 16:34:13.272] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[27Oct2025 16:34:13.273] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[27Oct2025 16:34:13.274] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[27Oct2025 16:34:13.274] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[27Oct2025 16:34:13.275] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[27Oct2025 16:34:13.276] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[27Oct2025 16:34:13.276] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[27Oct2025 16:34:13.277] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[27Oct2025 16:34:13.278] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[27Oct2025 16:34:13.278] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[27Oct2025 16:34:13.279] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[27Oct2025 16:34:13.280] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[27Oct2025 16:34:13.280] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[27Oct2025 16:34:13.281] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[27Oct2025 16:34:13.282] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[27Oct2025 16:34:13.282] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[27Oct2025 16:34:13.283] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[27Oct2025 16:34:13.284] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[27Oct2025 16:34:13.285] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[27Oct2025 16:34:13.285] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[27Oct2025 16:34:13.286] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[27Oct2025 16:34:13.286] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[27Oct2025 16:34:13.287] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[27Oct2025 16:34:13.288] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[27Oct2025 16:34:13.289] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[27Oct2025 16:34:13.289] [Worker-ResourceReload-3/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[27Oct2025 16:34:13.368] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:34:13.371] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.371] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.373] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.375] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.381] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:34:13.382] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.382] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.383] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:34:13.383] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.385] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[27Oct2025 16:34:13.385] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[27Oct2025 16:34:13.386] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[27Oct2025 16:34:13.388] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.388] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.390] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.392] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.393] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:34:13.393] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[27Oct2025 16:34:13.432] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1422 advancements
+[27Oct2025 16:34:13.432] [Server thread/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[27Oct2025 16:34:13.433] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[27Oct2025 16:34:13.434] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Oct2025 16:34:13.494] [Server thread/INFO] [Lexiconfig/]: Starting lexicon revision!
+[27Oct2025 16:34:13.496] [Server thread/INFO] [Lexiconfig/]: Finished lexicon revision!
+[27Oct2025 16:35:59.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Executed 3 command(s) from function 'money:give_money']
+[27Oct2025 16:36:19.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[27Oct2025 16:36:19.424] [Worker-ResourceReload-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[27Oct2025 16:36:19.561] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[27Oct2025 16:36:19.562] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[27Oct2025 16:36:19.563] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[27Oct2025 16:36:19.563] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[27Oct2025 16:36:19.564] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[27Oct2025 16:36:19.565] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[27Oct2025 16:36:19.565] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[27Oct2025 16:36:19.566] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[27Oct2025 16:36:19.567] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[27Oct2025 16:36:19.567] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[27Oct2025 16:36:19.568] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[27Oct2025 16:36:19.568] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[27Oct2025 16:36:19.569] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[27Oct2025 16:36:19.569] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[27Oct2025 16:36:19.569] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[27Oct2025 16:36:19.570] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[27Oct2025 16:36:19.570] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[27Oct2025 16:36:19.571] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[27Oct2025 16:36:19.571] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[27Oct2025 16:36:19.571] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[27Oct2025 16:36:19.572] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[27Oct2025 16:36:19.572] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[27Oct2025 16:36:19.572] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[27Oct2025 16:36:19.573] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[27Oct2025 16:36:19.573] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[27Oct2025 16:36:19.574] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[27Oct2025 16:36:19.574] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[27Oct2025 16:36:19.574] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[27Oct2025 16:36:19.575] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[27Oct2025 16:36:19.575] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[27Oct2025 16:36:19.576] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[27Oct2025 16:36:19.576] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[27Oct2025 16:36:19.576] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[27Oct2025 16:36:19.577] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[27Oct2025 16:36:19.577] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[27Oct2025 16:36:19.578] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[27Oct2025 16:36:19.578] [Worker-ResourceReload-6/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[27Oct2025 16:36:19.649] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:36:19.652] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.652] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.654] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.656] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.663] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:36:19.664] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.665] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.665] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:36:19.666] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.667] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[27Oct2025 16:36:19.668] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[27Oct2025 16:36:19.669] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[27Oct2025 16:36:19.671] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.672] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.674] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.676] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.677] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:36:19.677] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[27Oct2025 16:36:19.713] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1422 advancements
+[27Oct2025 16:36:19.714] [Server thread/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[27Oct2025 16:36:19.715] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[27Oct2025 16:36:19.715] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Oct2025 16:36:19.767] [Server thread/INFO] [Lexiconfig/]: Starting lexicon revision!
+[27Oct2025 16:36:19.769] [Server thread/INFO] [Lexiconfig/]: Finished lexicon revision!
+[27Oct2025 16:37:34.020] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: java.lang.NullPointerException: Cannot invoke "net.fexcraft.mod.uni.IDL.local()" because "loc" is null
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.impl.WrapperHolderImpl.getDataResource0(WrapperHolderImpl.java:205)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.world.WrapperHolder.getDataResource(WrapperHolder.java:159)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.UniReg.getMenuJson(UniReg.java:59)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$new$8(FCL.java:150)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.network.NetworkHooks.openScreen(NetworkHooks.java:194)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$new$9(FCL.java:134)
+[27Oct2025 16:37:34.021] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.util.EntityWI.openUI(EntityWI.java:147)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.util.EntityWI.openUI(EntityWI.java:152)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.ui.ManageConfigCon.packet(ManageConfigCon.java:57)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.ui.UniCon.onPacket(UniCon.java:153)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$commonSetup$14(FCL.java:195)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[27Oct2025 16:37:34.022] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[27Oct2025 16:37:34.023] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.mixinextras$bridge$m_18701_$238(MinecraftServer.java)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.wrapOperation$zep000$managedBlock(MinecraftServer.java:1856)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[27Oct2025 16:37:34.024] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[27Oct2025 16:37:44.644] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: java.lang.NullPointerException: Cannot invoke "net.fexcraft.mod.uni.IDL.local()" because "loc" is null
+[27Oct2025 16:37:44.645] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.impl.WrapperHolderImpl.getDataResource0(WrapperHolderImpl.java:205)
+[27Oct2025 16:37:44.645] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.world.WrapperHolder.getDataResource(WrapperHolder.java:159)
+[27Oct2025 16:37:44.645] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.UniReg.getMenuJson(UniReg.java:59)
+[27Oct2025 16:37:44.645] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$new$8(FCL.java:150)
+[27Oct2025 16:37:44.645] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/forge@47.3.7/net.minecraftforge.network.NetworkHooks.openScreen(NetworkHooks.java:194)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$new$9(FCL.java:134)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.util.EntityWI.openUI(EntityWI.java:147)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.util.EntityWI.openUI(EntityWI.java:152)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.ui.ManageConfigCon.packet(ManageConfigCon.java:57)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.uni.ui.UniCon.onPacket(UniCon.java:153)
+[27Oct2025 16:37:44.646] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/fcl@20.33/net.fexcraft.mod.fcl.FCL.lambda$commonSetup$14(FCL.java:195)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.TickTask.run(TickTask.java:18)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770)
+[27Oct2025 16:37:44.647] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732)
+[27Oct2025 16:37:44.648] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665)
+[27Oct2025 16:37:44.649] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251)
+[27Oct2025 16:37:44.649] [Server thread/INFO] [STDERR/]: [net.fexcraft.mod.fcl.FCL:lambda$new$9:156]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[27Oct2025 16:40:27.793] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting noppes/npcs/constants/EnumAbilityType
+[27Oct2025 16:41:00.004] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/object/PlayState
+[27Oct2025 16:41:00.005] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting software/bernie/geckolib/core/animation/AnimationController$State
+[27Oct2025 16:43:01.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Applied effect Smoked to Imranack]
+[27Oct2025 16:43:33.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Applied effect Smoked to Imranack]
+[27Oct2025 16:43:55.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Removed effect Smoked from Imranack]
+[27Oct2025 16:49:57.089] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4249f053[id=<null>,name=Herobrine,properties={},legacy=false] (/127.187.26.140:60681) lost connection: Disconnected
+[27Oct2025 16:50:44.787] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76a808d5[id=<null>,name=Herobrine,properties={},legacy=false] (/127.187.26.140:50945) lost connection: Disconnected
+[27Oct2025 16:52:47.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 74.500000, 65.000000, -17.500000]
+[27Oct2025 16:52:47.443] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/rendering/RenderableData$LightingMode
+[27Oct2025 16:54:26.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Reloading!]
+[27Oct2025 16:54:26.837] [Worker-ResourceReload-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag cuffed:can_reinforce_padlock as it is missing following references: minecraft:diamond_ingot (from Cuffed-1.20.1-1.3.9.jar)
+[27Oct2025 16:54:27.033] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[27Oct2025 16:54:27.034] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[27Oct2025 16:54:27.034] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[27Oct2025 16:54:27.034] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[27Oct2025 16:54:27.054] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[27Oct2025 16:54:27.057] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[27Oct2025 16:54:27.057] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[27Oct2025 16:54:27.057] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[27Oct2025 16:54:27.058] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[27Oct2025 16:54:27.058] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[27Oct2025 16:54:27.059] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[27Oct2025 16:54:27.060] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[27Oct2025 16:54:27.063] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[27Oct2025 16:54:27.063] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[27Oct2025 16:54:27.063] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[27Oct2025 16:54:27.064] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[27Oct2025 16:54:27.064] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[27Oct2025 16:54:27.068] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[27Oct2025 16:54:27.068] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[27Oct2025 16:54:27.069] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[27Oct2025 16:54:27.071] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[27Oct2025 16:54:27.072] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[27Oct2025 16:54:27.072] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[27Oct2025 16:54:27.073] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[27Oct2025 16:54:27.073] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[27Oct2025 16:54:27.074] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[27Oct2025 16:54:27.074] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[27Oct2025 16:54:27.075] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[27Oct2025 16:54:27.078] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[27Oct2025 16:54:27.078] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[27Oct2025 16:54:27.079] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[27Oct2025 16:54:27.079] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[27Oct2025 16:54:27.080] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[27Oct2025 16:54:27.082] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[27Oct2025 16:54:27.083] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[27Oct2025 16:54:27.083] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[27Oct2025 16:54:27.084] [Worker-ResourceReload-8/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[27Oct2025 16:54:27.163] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/silver: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:54:27.165] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/red: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.166] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/magenta: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.167] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/gray: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.169] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/cyan: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.175] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/white: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:54:27.175] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/purple: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.176] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/lime: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.177] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/yellow: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[27Oct2025 16:54:27.177] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.179] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe dtrch:emr_summer_armor_helmet_recipe: com.google.gson.JsonSyntaxException: Unknown item 'dtrch:emr_summer_armor_helmet'
+[27Oct2025 16:54:27.179] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/pink: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[27Oct2025 16:54:27.181] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cuffed:information_booklet: com.google.gson.JsonSyntaxException: Unknown item 'cuffed:information_booklet'
+[27Oct2025 16:54:27.183] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/black: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.184] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/green: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.185] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/brown: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.188] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/orange: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.188] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe devices:office_chair/light_blue: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[27Oct2025 16:54:27.189] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 12 recipes
+[27Oct2025 16:54:27.222] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1422 advancements
+[27Oct2025 16:54:27.223] [Server thread/INFO] [STDOUT/]: [ttv.migami.jeg.modifier.ModifierLoader:apply:47]: Loaded 2 modifier groups
+[27Oct2025 16:54:27.224] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[27Oct2025 16:54:27.225] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[27Oct2025 16:54:27.277] [Server thread/INFO] [Lexiconfig/]: Starting lexicon revision!
+[27Oct2025 16:54:27.279] [Server thread/INFO] [Lexiconfig/]: Finished lexicon revision!
+[27Oct2025 16:54:35.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Executed 5 command(s) from function 'money:give_money']
+[27Oct2025 16:57:24.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[27Oct2025 16:57:34.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 16:57:48.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Steve[/127.110.172.72:51523] logged in with entity id 1101 at (124.01422471554001, 65.0, 28.59578165323632)
+[27Oct2025 16:57:48.196] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Steve
+[27Oct2025 16:57:48.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Steve joined the game
+[27Oct2025 16:57:48.245] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Steve}
+[27Oct2025 16:58:42.187] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:taser is
+[27Oct2025 16:58:42.188] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:door_indestructible_iron_item is
+[27Oct2025 16:58:42.188] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:retinal_scanner is
+[27Oct2025 16:58:42.188] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what camerapture:pictures_taken is
+[27Oct2025 16:58:42.189] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:keypad_chest is
+[27Oct2025 16:58:42.189] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:door_indestructible_iron_item is
+[27Oct2025 16:58:42.189] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter/]: Invalid statistic in ./world/stats/85daf09e-5a63-350d-a576-6c42419be127.json: Don't know what securitycraft:retinal_scanner is
+[27Oct2025 16:58:42.190] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/keypad_door_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.190] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/scanner_door_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/sc_manual' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_birch_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_crimson_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/motion_activated_light' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_jungle_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_spruce_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_jungle_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_warped_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.191] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_cherry_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_acacia_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_acacia_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_cherry_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_bamboo_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_warped_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/sonic_security_system' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_mangrove_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_mangrove_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_dark_oak_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_birch_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_dark_oak_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_oak_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/redstone/reinforced_oak_fence_gate' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_bamboo_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.192] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_crimson_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/misc/reinforced_spruce_fence' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'camerapture:shutterbug' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'camerapture:recipes/album' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_crimson_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_oak_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_birch_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_crimson_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_jungle_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_spruce_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_birch_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_mangrove_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.193] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_dark_oak_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_mangrove_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_spruce_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_cherry_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_dark_oak_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_bamboo_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_bamboo_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_jungle_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_cherry_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_warped_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_acacia_hanging_sign' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_acacia_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/decorations/secret_warped_sign_item' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.194] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/birch_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/spruce_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/mangrove_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/dark_oak_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/acacia_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/bamboo_security_sea_raft' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/cherry_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/oak_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.195] [Server thread/WARN] [net.minecraft.server.PlayerAdvancements/]: Ignored advancement 'securitycraft:recipes/transportation/jungle_security_sea_boat' in progress file ./world/advancements/85daf09e-5a63-350d-a576-6c42419be127.json - it doesn't exist anymore?
+[27Oct2025 16:58:42.199] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_warped_fence removed now.
+[27Oct2025 16:58:42.199] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_jungle_sign_item removed now.
+[27Oct2025 16:58:42.199] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_spruce_fence_gate removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: camerapture:album removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_cherry_sign_item removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:jungle_security_sea_boat removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_bamboo_fence_gate removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_acacia_sign_item removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:sonic_security_system removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_oak_fence removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_mangrove_fence removed now.
+[27Oct2025 16:58:42.200] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:keypad_door_item removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_birch_sign_item removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:dark_oak_security_sea_boat removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_sign_item removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_dark_oak_hanging_sign removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_dark_oak_fence_gate removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_birch_hanging_sign removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_bamboo_fence removed now.
+[27Oct2025 16:58:42.201] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_acacia_fence_gate removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:motion_activated_light removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_crimson_sign_item removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:bamboo_security_sea_raft removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:scanner_door_item removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_cherry_fence_gate removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_acacia_fence removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:spruce_security_sea_boat removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_spruce_sign_item removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_birch_fence_gate removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:cherry_security_sea_boat removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_bamboo_sign_item removed now.
+[27Oct2025 16:58:42.202] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_crimson_fence_gate removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_warped_fence_gate removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_cherry_hanging_sign removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_crimson_fence removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_oak_hanging_sign removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_warped_hanging_sign removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_jungle_hanging_sign removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_crimson_hanging_sign removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_jungle_fence removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:birch_security_sea_boat removed now.
+[27Oct2025 16:58:42.203] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_spruce_hanging_sign removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_warped_sign_item removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_jungle_fence_gate removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_birch_fence removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_dark_oak_sign_item removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_acacia_hanging_sign removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_mangrove_hanging_sign removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_dark_oak_fence removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_mangrove_sign_item removed now.
+[27Oct2025 16:58:42.204] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:mangrove_security_sea_boat removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_bamboo_hanging_sign removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:acacia_security_sea_boat removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:sc_manual removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:oak_security_sea_boat removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_cherry_fence removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_oak_fence_gate removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_mangrove_fence_gate removed now.
+[27Oct2025 16:58:42.205] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_spruce_fence removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_warped_fence removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_jungle_sign_item removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_spruce_fence_gate removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: camerapture:album removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_cherry_sign_item removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:jungle_security_sea_boat removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_bamboo_fence_gate removed now.
+[27Oct2025 16:58:42.206] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_acacia_sign_item removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:sonic_security_system removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_oak_fence removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_mangrove_fence removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:keypad_door_item removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_birch_sign_item removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:dark_oak_security_sea_boat removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_sign_item removed now.
+[27Oct2025 16:58:42.207] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_dark_oak_hanging_sign removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_dark_oak_fence_gate removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_birch_hanging_sign removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_bamboo_fence removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_acacia_fence_gate removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:motion_activated_light removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_crimson_sign_item removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:bamboo_security_sea_raft removed now.
+[27Oct2025 16:58:42.208] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:scanner_door_item removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_cherry_fence_gate removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_acacia_fence removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:spruce_security_sea_boat removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_spruce_sign_item removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_birch_fence_gate removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:cherry_security_sea_boat removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_bamboo_sign_item removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_crimson_fence_gate removed now.
+[27Oct2025 16:58:42.209] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_warped_fence_gate removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_cherry_hanging_sign removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_crimson_fence removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_oak_hanging_sign removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_warped_hanging_sign removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_jungle_hanging_sign removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_crimson_hanging_sign removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_jungle_fence removed now.
+[27Oct2025 16:58:42.210] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:birch_security_sea_boat removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_spruce_hanging_sign removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_warped_sign_item removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_jungle_fence_gate removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_birch_fence removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_dark_oak_sign_item removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_acacia_hanging_sign removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_mangrove_hanging_sign removed now.
+[27Oct2025 16:58:42.211] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_dark_oak_fence removed now.
+[27Oct2025 16:58:42.212] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_mangrove_sign_item removed now.
+[27Oct2025 16:58:42.212] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:mangrove_security_sea_boat removed now.
+[27Oct2025 16:58:42.212] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:secret_bamboo_hanging_sign removed now.
+[27Oct2025 16:58:42.212] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:acacia_security_sea_boat removed now.
+[27Oct2025 16:58:42.212] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:sc_manual removed now.
+[27Oct2025 16:58:42.213] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:oak_security_sea_boat removed now.
+[27Oct2025 16:58:42.213] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_cherry_fence removed now.
+[27Oct2025 16:58:42.213] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_oak_fence_gate removed now.
+[27Oct2025 16:58:42.213] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_mangrove_fence_gate removed now.
+[27Oct2025 16:58:42.214] [Server thread/ERROR] [net.minecraft.stats.ServerRecipeBook/]: Tried to load unrecognized recipe: securitycraft:reinforced_spruce_fence removed now.
+[27Oct2025 16:58:42.214] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.187.26.140:43931] logged in with entity id 1109 at (18.71437422966689, 64.0, 155.26751771833864)
+[27Oct2025 16:58:42.221] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[27Oct2025 16:58:42.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[27Oct2025 16:58:42.280] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[27Oct2025 16:59:11.088] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/entity/BeehiveBlockEntity$BeeReleaseStatus
+[27Oct2025 17:00:30.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Added Steve to team [Tech]]
+[27Oct2025 17:00:36.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Added Null to team [Police_Cadet]]
+[27Oct2025 17:00:39.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Executed 5 command(s) from function 'money:give_money']
+[27Oct2025 17:00:57.295] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null moved too quickly! -10.173230151993629,-0.7461092740512356,-0.6814819396034864
+[27Oct2025 17:01:04.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[27Oct2025 17:01:06.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 17:03:08.376] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[27Oct2025 17:03:16.736] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null lost connection: Disconnected
+[27Oct2025 17:03:16.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null left the game
+[27Oct2025 17:03:22.650] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.187.26.140:39137] logged in with entity id 1279 at (30.354849532360866, 69.0, 103.68894429330611)
+[27Oct2025 17:03:22.654] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[27Oct2025 17:03:22.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[27Oct2025 17:03:22.697] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[27Oct2025 17:05:37.646] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null lost connection: Disconnected
+[27Oct2025 17:05:37.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null left the game
+[27Oct2025 17:05:37.688] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[27Oct2025 17:05:37.690] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.187.26.140:54435] logged in with entity id 1728 at (26.64347673099573, 69.0, 92.5441524184702)
+[27Oct2025 17:05:37.693] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[27Oct2025 17:05:37.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[27Oct2025 17:05:37.740] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[27Oct2025 17:05:56.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 10.500000, 65.000000, 91.500000]
+[27Oct2025 17:07:04.010] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting minecrafttransportsimulator/items/components/IItemEntityInteractable$CallbackType
+[27Oct2025 17:07:35.937] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null lost connection: Timed out
+[27Oct2025 17:07:35.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null left the game
+[27Oct2025 17:09:02.587] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@65a27073[id=<null>,name=Null,properties={},legacy=false] (/127.187.26.140:36575) lost connection: Disconnected
+[27Oct2025 17:09:07.741] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.187.26.140:48887] logged in with entity id 2197 at (26.522997829285963, 69.0, 96.90715159681264)
+[27Oct2025 17:09:07.744] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[27Oct2025 17:09:07.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[27Oct2025 17:09:07.792] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[27Oct2025 17:12:57.013] [Netty Epoll Server IO #2/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/chat/FilterMask$Type
+[27Oct2025 17:15:39.586] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Null lost connection: Disconnected
+[27Oct2025 17:15:39.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null left the game
+[27Oct2025 17:15:59.987] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7c9c75d8[id=<null>,name=Null,properties={},legacy=false] (/127.187.26.140:58975) lost connection: Disconnected
+[27Oct2025 17:16:35.786] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5c81fe23[id=<null>,name=Null,properties={},legacy=false] (/127.187.26.140:34523) lost connection: Disconnected
+[27Oct2025 17:16:38.852] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[27Oct2025 17:16:40.190] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Null[/127.187.26.140:36771] logged in with entity id 2658 at (30.193368628983926, 69.0, 91.64766656819059)
+[27Oct2025 17:16:40.193] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player Null
+[27Oct2025 17:16:40.202] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Null joined the game
+[27Oct2025 17:16:40.239] [Server thread/INFO] [Devices Mod/]: Player logged in: literal{Null}
+[27Oct2025 17:17:26.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Imranack> REDUCTIONS 25% SUR LES MAISONS/APARTEMENTS
+[27Oct2025 17:17:43.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[27Oct2025 17:18:19.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to -33.500000, 65.000000, 293.500000]
+[27Oct2025 17:18:27.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to -40.500000, 66.000000, 237.500000]
+[27Oct2025 17:18:52.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 17:18:53.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[27Oct2025 17:19:57.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Null> fdp
+[27Oct2025 17:20:19.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 10.500000, 65.000000, 91.500000]
+[27Oct2025 17:20:21.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 17:20:24.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[27Oct2025 17:20:26.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[27Oct2025 17:20:44.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Gave 16 [Bread] to 3]
+[27Oct2025 17:21:00.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Spectator Mode]
+[27Oct2025 17:21:10.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Teleported Imranack to 366.500000, 65.000000, 11.500000]
+[27Oct2025 17:21:16.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Creative Mode]
+[27Oct2025 17:21:30.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Imranack: Set own game mode to Survival Mode]
+[27Oct2025 17:21:46.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Null> zeyad j'ai besoin d'un wifi et des des câbles c'est disponible
+[27Oct2025 17:22:08.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Steve> non dsl
